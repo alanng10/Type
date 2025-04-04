@@ -49,20 +49,22 @@ class IndexList : Any
         this.Digit8 : this.AddDigitIndex();
         this.Digit9 : this.AddDigitIndex();
 
-        this.SignBackTick : this.AddSignIndex("`");
+        this.SignAnd : this.AddSignIndex("&");
+        this.SignOrn : this.AddSignIndex("|");
         this.SignNot : this.AddSignIndex("~");
+        this.SignAdd : this.AddSignIndex("+");
+        this.SignSub : this.AddSignIndex("-");
+        this.SignMul : this.AddSignIndex("*");
+        this.SignDiv : this.AddSignIndex("/");
+        this.SignBackTick : this.AddSignIndex("`");
         this.SignExclamate : this.AddSignIndex("!");
         this.SignAte : this.AddSignIndex("@");
         this.SignHash : this.AddSignIndex("#");
         this.SignDollar : this.AddSignIndex("$");
         this.SignPercent : this.AddSignIndex("%");
         this.SignExpo : this.AddSignIndex("^");
-        this.SignAnd : this.AddSignIndex("&");
-        this.SignMul : this.AddSignIndex("*");
-        this.SignSub : this.AddSignIndex("-");
         this.SignLine : this.AddSignIndex("_");
         this.SignSame : this.AddSignIndex("=");
-        this.SignAdd : this.AddSignIndex("+");
         this.SignBraceRoundLite : this.AddSignIndex("(");
         this.SignBraceRoundRite : this.AddSignIndex(")");
         this.SignBraceCurveLite : this.AddSignIndex("{");
@@ -77,10 +79,8 @@ class IndexList : Any
         this.SignLessNite : this.AddSignIndex("<");
         this.SignLessSite : this.AddSignIndex(">");
         this.SignStop : this.AddSignIndex(".");
-        this.SignDiv : this.AddSignIndex("/");
         this.SignQuest : this.AddSignIndex("?");
         this.SignNext : this.AddSignIndex("\\");
-        this.SignOrn : this.AddSignIndex("|");
 
         this.InnSpace : this.AddSpaceIndex();
         this.InnGroupIndex : 0h01;
