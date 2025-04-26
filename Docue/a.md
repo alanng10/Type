@@ -51,3 +51,5 @@ Type has park kind arch marry.
 Type has park kind arch land.
 
 Type is did.
+
+Type has major.
