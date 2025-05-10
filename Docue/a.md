@@ -50,6 +50,10 @@ Type has park kind arch marry.
 
 Type has park kind arch land.
 
+Type has park mark.
+
+Type has park cross.
+
 Type is did.
 
 Type has major.
