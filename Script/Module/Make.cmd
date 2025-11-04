@@ -1,3 +1,3 @@
 @echo off
 
-call Script\Module\MakeModule Type
+call ..\Script\Module\Make Type Type.Type
